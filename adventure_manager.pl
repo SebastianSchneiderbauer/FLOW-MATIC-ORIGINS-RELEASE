@@ -30,6 +30,7 @@ splash :-
     write(''), nl,
     write('Type start. to begin your journey.'), nl,
     write('NOTE: Only enter valid Prolog commands (e.g., look., help., use(pc).).'), nl,
+    write('If you get stuck, there is a spoilerless walkthrew in the README.md'), nl,
     write('Typing random text or numbers will cause a Prolog syntax error.'), nl,
     write('> '),
     splash_loop.
